@@ -11,26 +11,20 @@
 
 ### Description
 
-- Simulate a automated warehouse like the Amzon Robotics warehouse
-- Build a small-scale warehouse consisting of
-- Racks:- Size: 80 * 50 cms having 10 compartments divided into two rows equally
-- Compartments:- Size: 15 * 15 cms
-- Package:- Size: 10 * 10 cms
-- Gangway:- Thickness: 20 cms
+- Code snippets for 1D and 2D Kalman filter with different codes to for each step
 
 ### Installation
 
-- For [Linux users](http://gazebosim.org/tutorials?tut=install_ubuntu)
-- For windows user, install a [VM](https://www.virtualbox.org/) (virtual machine) with linux and then follow the previous step
-- For [Mac users](http://gazebosim.org/tutorials?tut=install_on_mac&ver=6.0&cat=install)
+- I am assuming you already have Gazebo and ROS installed and running up.
+- If not, refer to the readme files of the Gazebo world and Chase the ball repositories
+- Moving on, install the EKF ROS package:
+  1. Execute in source file of your catkin workspace: `git clone https://github.com/udacity/robot_pose_ekf`
 
 ### Launch
 
-- Open the command terminal window
-- Navigate to the folder/directory where you have stored/cloned this repository
-- Open the world folder
-- Execute `gazebo World_Warehouse_2.0`
+- Clone the repository onto to your device 
+- Execute the codes individually and change the input values inside the code
 
 ### License
 
-Udacity_1_Gazebo_World is Copyright © 2008-2019 Jatin Mayekar. It is free software, and may be redistributed under the terms specified in the LICENSE file.
+Udacity_3_Localizaton is Copyright © 2008-2019 Jatin Mayekar. It is free software, and may be redistributed under the terms specified in the LICENSE file.
