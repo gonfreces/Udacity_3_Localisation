@@ -1,5 +1,7 @@
 # Udacity_3_Localisation
 
+![Output](https://github.com/gonfreces/Udacity_3_Localisation_EKF/blob/master/EKF_robot.gif)
+
 ### Aim
 
 - Learn basic features of **Localisation** 
